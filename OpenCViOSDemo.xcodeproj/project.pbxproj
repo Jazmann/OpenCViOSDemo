@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5CAD0B8715A7883E00B9C56C /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD0B8615A7883E00B9C56C /* UIImageCVMatConverter.mm */; };
+		87E21F66167B84D500467CAB /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E21F63167B84D500467CAB /* libc++.1.dylib */; };
+		87E21F67167B84D500467CAB /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E21F64167B84D500467CAB /* libc++.dylib */; };
+		87E21F68167B84D500467CAB /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E21F65167B84D500467CAB /* libc++abi.dylib */; };
+		87E21F6B167B84E700467CAB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E21F6A167B84E700467CAB /* Default-568h@2x.png */; };
 		B55CF93E15AA4F6300A65EA8 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = B55CF93C15AA4F6300A65EA8 /* dice.png */; };
 		B55CF93F15AA4F6300A65EA8 /* dice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B55CF93D15AA4F6300A65EA8 /* dice@2x.png */; };
 		B55CF94615AA4FF700A65EA8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55CF94415AA4FF700A65EA8 /* MainStoryboard_iPhone.storyboard */; };
@@ -37,6 +41,10 @@
 /* Begin PBXFileReference section */
 		5CAD0B8515A7883E00B9C56C /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = ../../shared/UIImageCVMatConverter.h; sourceTree = "<group>"; };
 		5CAD0B8615A7883E00B9C56C /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIImageCVMatConverter.mm; path = ../../shared/UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		87E21F63167B84D500467CAB /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		87E21F64167B84D500467CAB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		87E21F65167B84D500467CAB /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		87E21F6A167B84E700467CAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B55CF93C15AA4F6300A65EA8 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice.png; sourceTree = "<group>"; };
 		B55CF93D15AA4F6300A65EA8 /* dice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice@2x.png"; sourceTree = "<group>"; };
 		B55CF94515AA4FF700A65EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -76,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E21F66167B84D500467CAB /* libc++.1.dylib in Frameworks */,
+				87E21F67167B84D500467CAB /* libc++.dylib in Frameworks */,
+				87E21F68167B84D500467CAB /* libc++abi.dylib in Frameworks */,
 				B5C08CA415A6CB6D00856270 /* opencv2.framework in Frameworks */,
 				B5C08C4415A653B700856270 /* UIKit.framework in Frameworks */,
 				B5C08C4615A653B700856270 /* Foundation.framework in Frameworks */,
@@ -89,6 +100,10 @@
 		B5C08C3415A653B700856270 = {
 			isa = PBXGroup;
 			children = (
+				87E21F6A167B84E700467CAB /* Default-568h@2x.png */,
+				87E21F63167B84D500467CAB /* libc++.1.dylib */,
+				87E21F64167B84D500467CAB /* libc++.dylib */,
+				87E21F65167B84D500467CAB /* libc++abi.dylib */,
 				B5C08CD615A72CAD00856270 /* Image Filter */,
 				B5C08CAC15A6D81B00856270 /* images */,
 				B5C08C4915A653B700856270 /* OpenCViOSDemo */,
@@ -240,6 +255,7 @@
 				B55CF93E15AA4F6300A65EA8 /* dice.png in Resources */,
 				B55CF93F15AA4F6300A65EA8 /* dice@2x.png in Resources */,
 				B55CF94615AA4FF700A65EA8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				87E21F6B167B84E700467CAB /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
